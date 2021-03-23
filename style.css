@@ -1,0 +1,40 @@
+*[getcss_hi] {
+    margin-left: calc(100% - (600px + 19%));
+    margin-top: 15%;
+}
+.macOS {
+    text-decoration: none;
+	font-family:".LucidaGrandeUI", "Lucida Grande", "Lucida sans unicode";
+	color: black;
+	font-size: 11px;
+	padding: 1px 7px;
+	border:1px solid #9C9C9C;
+	margin: 2px 2px;
+	display: inline-block;
+	background-image: -webkit-linear-gradient(
+	#ffffff 0%, #F6F6F6 	30%, 
+	#F3F3F3 45%, #EDEDED 	60%, 
+	#eeeeee 100%
+    );
+	border-radius: 3px;
+	cursor: default;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.20);
+}
+.macOS:active {
+    border-color:#705ebb;
+    background-image:-webkit-linear-gradient(
+     #ace9c5 0%, 		#a3f2c0 18%, 
+     #61eda0 39%,		#55f2a3 70%, 
+     #82f1c2 91.72%, 	#9AF2D2 100%
+    ); 
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.65);		
+}
+.a{
+    display: none;
+}
+.b{
+    display: none;
+}
+.c{
+    display: none;
+}
